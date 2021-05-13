@@ -125,7 +125,7 @@ Now that the web part has two new custom properties, the next step is to extend 
     1. In the **HelloPropertyPaneWebPart.ts**, at the top of the file, add a **PropertyPaneSlider** reference to the existing import statement for the **@microsoft/sp-webpart-base** package.
 
         ```typescript
-        Import { PropertyPaneSlider } from '@microsoft/sp-webpart-base'
+        import { PropertyPaneSlider } from '@microsoft/sp-webpart-base'
         ```
 
     1. Scroll down to the method **getPropertyPaneConfiguration** and within it, locate the **groupFields** array.
